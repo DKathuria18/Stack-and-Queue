@@ -1,0 +1,40 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+   public static void main(String[] args) throws Exception{
+       Stack<Integer> stk = new Stack();
+       // initailizing a empty stack 
+       
+       stk.push(10);
+       System.out.println(stk.peek());
+       System.out.println(stk);
+       
+       stk.push(20);
+       System.out.println(stk.peek());
+       System.out.println(stk);
+       
+       stk.push(30);
+       System.out.println(stk.peek());
+       System.out.println(stk);
+       
+       stk.push(40);
+       System.out.println(stk.peek());
+       System.out.println(stk);
+       
+       System.out.println(stk.pop());
+       System.out.println(stk);
+       
+       System.out.println(stk.pop());
+       System.out.println(stk);
+       
+       System.out.println(stk.pop());
+       System.out.println(stk);
+    
+       System.out.println(stk.pop());
+       System.out.println(stk);
+       
+       
+       
+   }
+}
